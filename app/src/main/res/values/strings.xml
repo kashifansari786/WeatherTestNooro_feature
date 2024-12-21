@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">WeatherTestNooro</string>
+    <string name="no_city_selected">No City Selected</string>
+    <string name="please_search_for_a_city">Please Search For A City</string>
+    <string name="search_location">Search Location</string>
+    <string name="humidity">Humidity</string>
+    <string name="uv">UV</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="percentage_symbol">%</string>
+    <string name="degree_symbol">°</string>
+    <string name="delete">DELETE</string>
+    <string name="hourly_forecast">HOURLY FORECAST</string>
+    <string name="wind">WIND</string>
+    <string name="gusts">Gusts</string>
+    <string name="direction">Direction</string>
+    <string name="air_quality">AIR QUALITY</string>
+    <string name="co_carbon_monoxide">CO(carbon Monoxide)</string>
+    <string name="g_m3">" μg/m3"</string>
+    <string name="no2_nitrogen_dioxide">No2(Nitrogen Dioxide)</string>
+    <string name="o3_ozone">O3(Ozone)</string>
+    <string name="precipitation">PRECIPITATION</string>
+    <string name="mm">" mm"</string>
+    <string name="visibility">VISIBILITY</string>
+    <string name="km">" km"</string>
+    <string name="pressure">PRESSURE</string>
+    <string name="hpa">" hPa"</string>
+    <string name="kph">" kph"</string>
+    <string name="now">Now</string>
+</resources>
