@@ -183,7 +183,7 @@ fun WeatherIconWithTemperature(weatherState: Resources<WeatherResponse>?) {
                                 .size(size8)
                         )
                         Spacer(modifier = Modifier.width(size4))
-                        TextComponent12( modifier = Modifier.fillMaxWidth(),stringResource(R.string.hourly_forecast), textAlign = TextAlign.Center)
+                        TextComponent12( modifier = Modifier,stringResource(R.string.hourly_forecast), textAlign = TextAlign.Center)
                     }
                     Spacer(modifier = Modifier.height(size4))
                     LazyRow(
@@ -229,7 +229,7 @@ fun WeatherIconWithTemperature(weatherState: Resources<WeatherResponse>?) {
                                     .size(size8)
                             )
                             Spacer(modifier = Modifier.width(size4))
-                            TextComponent12( modifier = Modifier.fillMaxWidth(),stringResource(R.string.wind), textAlign = TextAlign.Center)
+                            TextComponent12( modifier = Modifier,stringResource(R.string.wind), textAlign = TextAlign.Center)
 
                         }
                         Column(modifier = Modifier
@@ -349,7 +349,7 @@ fun WeatherIconWithTemperature(weatherState: Resources<WeatherResponse>?) {
                                 .size(size8)
                         )
                         Spacer(modifier = Modifier.width(size4))
-                        TextComponent12(modifier = Modifier.fillMaxWidth(),stringResource(R.string.air_quality), textAlign = TextAlign.Center)
+                        TextComponent12(modifier = Modifier,stringResource(R.string.air_quality), textAlign = TextAlign.Center)
                     }
                     Column(modifier = Modifier
                         .fillMaxWidth()
@@ -500,7 +500,7 @@ fun WeatherIconWithTemperature(weatherState: Resources<WeatherResponse>?) {
                                     .size(size8)
                             )
                             Spacer(modifier = Modifier.width(size4))
-                            TextComponent12(modifier = Modifier.fillMaxWidth(),stringResource(R.string.precipitation), textAlign = TextAlign.Center)
+                            TextComponent12(modifier = Modifier,stringResource(R.string.precipitation), textAlign = TextAlign.Center)
 
                         }
                         Spacer(modifier = Modifier.height(size10))
@@ -538,7 +538,7 @@ fun WeatherIconWithTemperature(weatherState: Resources<WeatherResponse>?) {
                                     .size(size8)
                             )
                             Spacer(modifier = Modifier.width(size4))
-                            TextComponent12( modifier = Modifier.fillMaxWidth(),stringResource(R.string.visibility), textAlign = TextAlign.Center)
+                            TextComponent12( modifier = Modifier,stringResource(R.string.visibility), textAlign = TextAlign.Center)
                         }
                         Spacer(modifier = Modifier.height(size10))
                         Text(
@@ -579,7 +579,7 @@ fun WeatherIconWithTemperature(weatherState: Resources<WeatherResponse>?) {
                                     .size(size8)
                             )
                             Spacer(modifier = Modifier.width(size4))
-                            TextComponent12(modifier = Modifier.fillMaxWidth(),stringResource(R.string.pressure), textAlign = TextAlign.Center)
+                            TextComponent12(modifier = Modifier,stringResource(R.string.pressure), textAlign = TextAlign.Center)
 
                         }
                         Spacer(modifier = Modifier.height(padding10))
